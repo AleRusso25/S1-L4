@@ -14,19 +14,21 @@
 
 /* FOOTER */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap');
-body   { width: 400px;
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 400px;
     height: 800px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-    padding-inline: 2rem ;
-    background-image: url(../img/sfondo.png) ;
+    padding-inline: 2rem;
+    background-image: url(../img/sfondo.png);
     line-height: 2rem;
+    line-break: 0;
 }
-header { 
-    font: bolder;
+
+header {
     padding-top: 3%;
     padding-bottom: 3%;
     text-align: center;
@@ -34,33 +36,132 @@ header {
     box-shadow: 5px 5px 8px 2px #000000;
     background-color: rgb(11, 167, 179);
 }
+
 main {
     padding: 3%;
     background-color: aliceblue;
     box-shadow: 5px 5px 8px 2px #000000;
 }
-head> h1  {
+
+head>h1 {
     color: aliceblue;
 }
- footer { 
+
+footer {
     margin-top: 5%;
     padding: 5%;
     text-align: center;
     color: aliceblue;
     background-image: linear-gradient(360deg, #367771, #1a1818);
     box-shadow: 5px 5px 8px 2px #000000;
-    }
+}
 
 
-header>h2>strong {color: aliceblue;}
-header>ul>li {color: aliceblue; font-size: large;}
-main>h1 {color: grey;}
-main>h3>ul>li>a {list-style: disc;}
-iframe {margin-block: 5%;
+header>h2 {
+    color: aliceblue;
+}
+
+header>ul>li {
+    color: aliceblue;
+    font-size: large;
+}
+
+main>h1 {
+    color: grey;
+}
+
+main>h3>ul>li>a {
+    list-style: disc;
+}
+
+iframe {
+    margin-block: 5%;
     text-align: center;
-    width:100%;
-    border-radius: 8%
-;}
-.main-class {padding: 20px;}
-  table{ text-align: center;
-    border-bottom:solid 2px #367771;}
+    width: 100%;
+    border-radius: 8%;
+}
+
+.main-class {
+    padding: 20px;
+}
+
+table {
+    text-align: center;
+    border-bottom: solid 2px #367771;
+}
+main>h1>img {
+    width: 30px;
+}
+
+main>div>strong{
+    font-size: 40px;
+}
+
+.title {
+    padding: 8px;
+padding-bottom: 30px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.title-tabel { 
+    font-family: "Poppins", sans-serif;
+    font-weight:  700; 
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+}
+
+table { border: solid 1px aliceblue;
+    margin-left: 5%;
+     margin-right: 30px; 
+     padding: 20%"
+}
+
+tbody>tr>th { color: aliceblue;
+    font-weight: 300;
+    border: aliceblue solid 1px;
+    background-color: rgb(52, 52, 219);
+}
+tbody {padding-top: 20px;
+padding-bottom: 20px;
+}
+main>p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+button {
+    box-shadow: 0;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: rgb(46, 46, 204);
+}
+.novità {
+     padding: 6px;
+     font-weight: 500;
+    text-align: center;
+    background-color: #c0bcbc;
+}
+.novità>h2 { 
+    font-weight: 600;
+    font-size: large;
+}
+input#email {
+    border-bottom-color: #000000 ;
+    border-bottom-style: dotted   ;
+}
+.last-title {
+    color: #1a1818;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+}
+.articoli1 , .articoli3 , .articoli2
+{ 
+    margin-top: 20px;
+    padding: 6px;
+        font-weight: 500;
+        text-align: center;
+        background-color: #c0bcbc;
+
+}

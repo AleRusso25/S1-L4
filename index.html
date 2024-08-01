@@ -7,24 +7,27 @@
     
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
   </head>
   <body>
     <div class="main-class">
-
-    <header>
+  <header>
       <img src="assets/img/logo.svg" alt="logo Epicode" width="200px" />
-      <h2><strong>EPICODE-IL BLOG DEI DEVELOPERS</strong></h2>
+      <h2>EPICODE-IL BLOG DEI DEVELOPERS</h2>
       <ul>
-        <li> &#8680; HOME &#8678;</li>
+        <li>&#8680; HOME &#8678;</li>
         <li> &#8680;ARTICOLI &#8678;</li>
         <li>&#8680;LAVORA CON NOI &#8678;</li>
       </ul>
     </header>
 
     <main>
+      <div class="title">
       <strong>Come creare un template per i post</strong>
-      <h1> di Mario Rossi-pubblicato il 25/10/2020</h1>
-      <table style="margin-left: 5%; margin-right: 30px; padding: 5%">
+      </div>
+      <h1> <i class="fas fa-pen-square"></i>di Mario Rossi- <i class="fas fa-clock"></i>pubblicato il 25/10/2020</h1>
+      <i class="title-tabel">Diffusione dei CSS</i>
+      <table >
         <tr>
           <th>ANNO</th>
           <th>% DI UTILIZZO</th>
@@ -57,7 +60,7 @@
         </tr>
       </table>
       <p>
-        Un test di validazione potrà essere fatto tramite il tool online <a href="#">-Link-</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo
+        Un test di validazione potrà essere fatto tramite il tool online <a href="#">tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo
         raggiunto il nostro obiettivo ed essere dei veri developers come loro:
       </p>
       <iframe
@@ -70,32 +73,41 @@
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>
+      <div class="novità">
+      <h2>NOVITA</h2>
       <h3>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</h3>
       <form onsubmit="alert('Iscrizione inviata!')">
-        <label for="email">Inserisci l'email</label>
-        <input type="email" id="email" placeholder="email" />
-        <button type="submit">invia i dati</button>
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="Inserisci l'email" />
+        <button type="submit">Iscriviti!</button>
+        </div>
       </form>
-      <h3>Articoli correlati:</h3>
+      <h3 class="last-title">ARTICOLI CORRELATI:</h3>
+      <div class="articoli1">
       <ul>
         <li><a href="#">Validare il codice HTML</a></li>
         <p>Categoria: develop</p>
         <p>Data: 18-09-2020</p>
+        </div>
+        <div class="articoli2">
         <li><a href="#">Correggere la sintassi</a></li>
         <p>Categoria: develop</p>
         <p>Data: 06-09-2020</p>
+        </div>
+        <div class="articoli3">
         <li><a href="#"> Meno Kb nella pagina</a></li>
         <p>Categoria: ottimizzazione</p>
         <p>Data: 30-09-2020</p>
       </ul>
+      </div>
       </main>
       <footer>
-        <div class="and">
+     
       <h4>Blog Epicode &copy;2023</h4>
       <p>Testata online di Mario Rossi, registrata con prot.n213/2018, via Luigi Enaudi 2-Milano P.IVA 00112233.</p>
       <p><a href="#">info@epicode.school</a></p>
-      </div>
+ 
     </footer>
-    </div>
+  </div>
   </body>
 </html>
