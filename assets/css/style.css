@@ -1,0 +1,62 @@
+/* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap');
+body   { width: 400px;
+    height: 800px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    padding-inline: 2rem ;
+    background-image: url(../img/sfondo.png) ;
+    line-height: 2rem;
+}
+header { padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    margin: 5%;
+    box-shadow: 5px 5px 8px 2px #000000;
+    background-color: rgb(11, 167, 179);
+}
+main {
+    padding: 3%;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 8px 2px #000000;
+}
+head> h1  {
+    color: aliceblue;
+}
+ footer {
+    text-align: center;
+    color: aliceblue;
+    background-image: linear-gradient(360deg, #367771, #1a1818);
+    box-shadow: 5px 5px 8px 2px #000000;
+    }
+
+
+header>h2>strong {color: aliceblue;}
+header>ul>li {color: aliceblue; font-size: large;}
+main>h1 {color: grey;}
+main>h3>ul>li>a {list-style: disc;}
+iframe {margin-block: 5%;
+    text-align: center;
+    width:100%;
+    border-radius: 8%
+;}
+.main-class {padding: 20px;}
+  table{ text-align: center;
+    border-bottom:solid 2px #367771;}
